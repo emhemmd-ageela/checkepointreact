@@ -46,6 +46,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      {/* carousel item */}
       <Carousel>
         <Carousel.Item interval={1000}>
           <img
@@ -84,6 +85,7 @@ function App() {
     </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
+      {/* form */}
       <div className="form">
         <Form>
           <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
@@ -113,6 +115,7 @@ function App() {
           </Form.Group>
         </Form>
       </div>
+      {/* footer pega */}
       <footer className="page-footer font-small blue pt-4 footer1">
         <div className="container-fluid text-center text-md-left">
           <div className="row footer1">
